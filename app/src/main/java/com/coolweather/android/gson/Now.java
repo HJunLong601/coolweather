@@ -1,7 +1,5 @@
 package com.coolweather.android.gson;
 
-import android.test.MoreAsserts;
-
 import com.google.gson.annotations.SerializedName;
 
 /**
@@ -16,7 +14,7 @@ public class Now {
     public More more;
 
     public class More {
-       @SerializedName("txt")
+        @SerializedName("txt")
         public String info;
     }
 }
